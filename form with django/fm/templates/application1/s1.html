@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <hr>
+   <center>
+    <h1><tt>wlcome to employee_Regestration</tt></h1>
+   </center> 
+   <hr>
+   <br>
+   <fieldset>
+    <legend>employee_Regestration</legend>
+    <center>
+        <form action="" method="post"></form>
+        {% csrf_token %}
+        {{data.as_p}}
+        <input type="submit" value="employee_Regestration">
+    </center>
+   </fieldset>
+</body>
+</html>
